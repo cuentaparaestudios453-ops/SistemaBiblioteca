@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Biblioteca</title>
+</head>
+
+<body>
+
+    <h1>Sistema de Biblioteca</h1>
+
+    <h2>Registrar libro</h2>
+
+    <form>
+        <label>Título:</label>
+        <input type="text">
+
+        <br><br>
+
+        <label>Autor:</label>
+        <input type="text">
+
+        <br><br>
+
+        <input type="submit" value="Registrar">
+    </form>
+
+    <h2>Libros registrados</h2>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Estado</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>El Principito</td>
+            <td>Antoine de Saint-Exupéry</td>
+            <td>Disponible</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Cien años de soledad</td>
+            <td>Gabriel García Márquez</td>
+            <td>Prestado</td>
+        </tr>
+    </table>
+
+    <h2>Registrar préstamo</h2>
+
+    <form>
+        <label>Nombre del usuario:</label>
+        <input type="text">
+
+        <br><br>
+
+        <label>Libro:</label>
+        <select>
+            <option>El Principito</option>
+            <option>Cien años de soledad</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Prestar libro">
+    </form>
+
+</body>
+</html>
